@@ -1,0 +1,1 @@
+export const HeaderImg = require('./codemac.jpg')
