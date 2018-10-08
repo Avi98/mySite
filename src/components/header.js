@@ -3,13 +3,18 @@ import styled from 'styled-components'
 
 import {HeaderImg} from '../image'
 const HeaderBg = styled.div`
-background-image:url('HeaderImg'); 
-`
+background-color: coral;
+`;
 const Header = () => {
   return ( 
-   <div>hi</div>
+    <div>
+   <HeaderBg>
+    sdd
+
+   </HeaderBg>
+    </div>
    );
 }
  
-export default Header;
+export {Header};
 
