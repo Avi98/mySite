@@ -8,6 +8,11 @@ import {FlexContainer} from './commonStyles';
 const HeaderBg = styled.div`
     height: 15rem;
     color: aliceblue;
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 10;
     background-image: url(${HeaderImg});
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +21,10 @@ const HeaderBg = styled.div`
 
 const HeaderTitle = styled(FlexContainer)`
   color: aliceblue;
-  padding: 9vh 0;
+  align-items: center;
+  min-height: 200px;
+  max-height: 450px;
+  text-align: center;
 `
 
 const Header = () => {
