@@ -9,9 +9,6 @@ const StyleMenu = styled.div`
     justifyContent: space-around;
 
    * {
-        color: ivory;
-        font-weight: 400;
-        font-color: #ffff;
         font-size: 1.2rem;
         font-family: cursive; 
     }
@@ -20,28 +17,24 @@ const StyleMenu = styled.div`
 const HeaderMenu = () => {
     return (
     <StyleMenu>
-        <Menu pointing secondary >
+        <Menu pointing secondary style={{color:"red"}} >
             <Menu.Item name='home'
-             active= 'home'
+             active= 'Home'
+             style={{color:"ivory"}}
             //  onClick={this.handleItemClick} 
             />
             <Menu.Item
-                name='messages'
+                style={{color:"ivory"}}
+                name='Blogs'
             // active={activeItem === 'messages'}
             // onClick={this.handleItemClick}
             />
             <Menu.Item
-                name='friends'
+                style={{color:"ivory"}}
+                name='About me'
             // active={activeItem === 'friends'}
             // onClick={this.handleItemClick}
             />
-            <Menu.Menu position='right'>
-                <Menu.Item
-                    name='logout'
-                // active={activeItem === 'logout'}
-                // onClick={this.handleItemClick}
-                />
-            </Menu.Menu>
         </Menu>
     </StyleMenu>
 );
