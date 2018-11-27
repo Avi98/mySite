@@ -21,22 +21,25 @@ const HeaderBg = styled.div`
 
 const HeaderTitle = styled(FlexContainer)`
   color: aliceblue;
+  font-size: LARGE; 
   align-items: center;
   min-height: 200px;
   max-height: 450px;
   text-align: center;
 `
 
+
 const Header = () => {
   return ( 
     <HeaderBg>
       <HeaderTitle>
-        <h1>
+          <div>
           Avinash
-        </h1>
-        <h2>
+          </div>
+         <div>
           React developer
-        </h2>
+          </div>
+        
       </HeaderTitle>
         <Menu /> 
     </HeaderBg>

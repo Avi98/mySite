@@ -9,7 +9,7 @@ const StyleMenu = styled.div`
     justifyContent: space-around;
 
    * {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: cursive; 
     }
 

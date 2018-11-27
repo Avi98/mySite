@@ -7,7 +7,7 @@ class IndexPages extends Component {
   render() { 
   return (
     
-    <HomePage />
+    <HomePage style={{backgroundColor:'#f3f8fb'}}/>
 
     );
   }
